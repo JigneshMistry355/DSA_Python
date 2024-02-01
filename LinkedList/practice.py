@@ -110,21 +110,21 @@ if __name__ == '__main__':
     l.insert_at(100,4)
 
     # inserting a list at the end
-    # my_list = [1,5,3,4]
-    # l.insert_list(my_list)
+    my_list = [1,5,3,4]
+    l.insert_list(my_list)
 
     # removing an element from linkedlist
-    # print(f'\nRemoving 3 from list {l.displayList()}')
-    # l.remove_at(6)
+    print(f'\nRemoving 3 from list {l.displayList()}')
+    l.remove_at(6)
 
     # displaying list after deletion
 
     l.displayList()
 
     # print the length of the string
-    # print(f'\nThe length of linked list is {l.get_count()}')
+    print(f'\nThe length of linked list is {l.get_count()}')
 
     # deleting previous list and creating a new list
-    # l.create_new_list(my_list)
-    # print(f'\nThe new list created is --->>>   ')
-    # l.displayList()
+    l.create_new_list(my_list)
+    print(f'\nThe new list created is --->>>   ')
+    l.displayList()
